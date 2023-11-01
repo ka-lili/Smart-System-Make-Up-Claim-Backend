@@ -32,7 +32,7 @@ const attachFile = (req, res, next) => {
     
     next();
 }
-
+//
 const createClaim = async (req, res) => {
     const claim = await Claim.create(req.body);
 
